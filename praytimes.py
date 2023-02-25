@@ -154,7 +154,7 @@ class PrayTimes():
 
 	def setMethod(self, method):
 		if method in self.methods:
-			self.adjust(self.methods[method].params)
+			self.adjust(self.methods[method]['params'])
 			self.calcMethod = method
 
 	def adjust(self, params):
