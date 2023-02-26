@@ -80,6 +80,9 @@ class PrayTimes():
 
 	# Calculation Methods
 	methods = {
+		'Kemenag': {
+			'name': 'Sihat Kemenag, Indonesia',
+			'params': { 'fajr': 20, 'isha': 18 } },
 		'MWL': {
 			'name': 'Muslim World League',
 			'params': { 'fajr': 18, 'isha': 17 } },
